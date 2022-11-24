@@ -1,0 +1,2 @@
+# EstructuraDDatosXenia
+Practicas de Estructura De Datos 2022-2
