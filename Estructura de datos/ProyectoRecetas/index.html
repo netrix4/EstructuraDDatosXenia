@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Este puede ir al final de body -->
+    <script type="module" src="indexScript.js"></script>
+
+    <title>Recetario</title>
+</head>
+<body>
+    <header class="header">
+        <H1>Recetario de la Abuela</H1>
+        <H5>Qué te sirvo, mijo</H5>
+    </header>
+
+    <main id="mainContainer" class="main">
+        <div id="searchTools" class="searchTools">
+            <input type="text" id="txtSearch" class="main__txtSearch">
+            <input type="button" value="Buscar receta" id="btnSearch" class="main__btnSearch">
+        </div>
+
+        <div id="recipesContainer" class="recipesContainer">
+            
+            <div id="singleRecipe" class="singleRecipe">
+                <img src="resources/noFace.png" class="recipePhoto">
+
+                <div class="transition">
+                    <div class="dimmedText">Ver mas</div>
+                </div>
+
+                <div id="recipeDescription" class="recipeDescription">
+                    <p>Descripción</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p>copyright &copy;2022</p>
+    </footer>
+    
+</body>
+</html>
