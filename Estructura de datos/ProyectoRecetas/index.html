@@ -19,12 +19,15 @@
 
     <main id="mainContainer" class="main">
         <div id="searchTools" class="searchTools">
-            <input type="text" id="txtSearch" class="main__txtSearch">
-            <input type="button" value="Buscar receta" id="btnSearch" class="main__btnSearch">
+            <div class="txtSearchAnimation">
+                <input type="text" id="txtSearch" class="txtSearch" placeholder="Buscar receta">
+                <div class="bottomLine"></div>
+            </div>
+            <input type="button" value="Buscar receta" id="btnSearch" class="btnSearch" >
         </div>
 
         <div id="recipesContainer" class="recipesContainer">
-            
+
             <div id="singleRecipe" class="singleRecipe">
                 <img src="resources/noFace.png" class="recipePhoto">
 
