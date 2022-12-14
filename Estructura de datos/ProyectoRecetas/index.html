@@ -11,81 +11,29 @@
 
     <title>Recetario</title>
 </head>
-<body>
+<body>    
+    <dialog id="detailsModal" class="detailsDialog">
+    </dialog>
     <header class="header">
-        <H1>Recetario de la Abuela</H1>
-        <H5>Qué te sirvo, mijo</H5>
+        <h1>Recetario de la Abuela</h1>
+        <h5>Qué te sirvo, mijo</h5>
     </header>
 
     <main id="mainContainer" class="main">
         <div id="searchTools" class="searchTools">
-            <input type="text" id="txtSearch" class="main__txtSearch">
-            <input type="button" value="Buscar receta" id="btnSearch" class="main__btnSearch">
+            <div class="txtSearchAnimation">
+                <input type="text" id="txtSearch" class="txtSearch" placeholder="Buscar receta">
+                <div class="bottomLine"></div>
+            </div>
+            <input type="button" value="Buscar receta" id="btnSearch" class="btnSearch" >
+            <input type="button" value="Limpiar" id="btnClear" class="btnSearch">
         </div>
 
         <div id="recipesContainer" class="recipesContainer">
-            
-            <div id="singleRecipe" class="singleRecipe">
-                <img src="resources/noFace.png" class="recipePhoto">
-
-                <div class="transition">
-                    <div class="dimmedText">Ver mas</div>
-                </div>
-
-                <div id="recipeDescription" class="recipeDescription">
-                    <p>Descripción</p>
-                </div>
-            </div>
-            <div id="singleRecipe" class="singleRecipe">
-                <img src="resources/noFace.png" class="recipePhoto">
-
-                <div class="transition">
-                    <div class="dimmedText">Ver mas</div>
-                </div>
-
-                <div id="recipeDescription" class="recipeDescription">
-                    <p>Descripción</p>
-                </div>
-            </div>
-            <div id="singleRecipe" class="singleRecipe">
-                <img src="resources/noFace.png" class="recipePhoto">
-
-                <div class="transition">
-                    <div class="dimmedText">Ver mas</div>
-                </div>
-
-                <div id="recipeDescription" class="recipeDescription">
-                    <p>Descripción</p>
-                </div>
-            </div>
-            <div id="singleRecipe" class="singleRecipe">
-                <img src="resources/noFace.png" class="recipePhoto">
-
-                <div class="transition">
-                    <div class="dimmedText">Ver mas</div>
-                </div>
-
-                <div id="recipeDescription" class="recipeDescription">
-                    <p>Descripción</p>
-                </div>
-            </div>
-            <div id="singleRecipe" class="singleRecipe">
-                <img src="resources/noFace.png" class="recipePhoto">
-
-                <div class="transition">
-                    <div class="dimmedText">Ver mas</div>
-                </div>
-
-                <div id="recipeDescription" class="recipeDescription">
-                    <p>Descripción</p>
-                </div>
-            </div>
         </div>
-
     </main>
     <footer class="footer">
-        <p>copyright &copy;2022</p>
+        <p>copyright &copy;2022 Mario Arias</p>
     </footer>
-    
 </body>
 </html>
